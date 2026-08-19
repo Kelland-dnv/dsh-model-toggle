@@ -1,6 +1,6 @@
 {
   "name": "dsh-model-toggle",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "DeepSeek Harness plugin: toggle which models appear in the Web UI model selector",
   "type": "module",
   "main": "lib/index.js",
@@ -36,6 +36,7 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json && tsdown",
+    "prepare": "tsc -p tsconfig.json && tsdown",
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "peerDependencies": {
@@ -48,8 +49,10 @@
   "devDependencies": {
     "@deepseek-ai/cordis": "^4.0.1",
     "@deepseek-ai/dsh-client-connection": "^0.0.1-rc.5",
+    "@deepseek-ai/dsh-client-locale": "^0.0.1-rc.1",
     "@deepseek-ai/dsh-client-runtime": "^0.0.1-rc.5",
     "@deepseek-ai/dsh-client-ui-primitives": "^0.0.1-rc.5",
+    "@deepseek-ai/dsh-client-ui-settings": "^0.0.1-rc.1",
     "@deepseek-ai/dsh-client-ui-settings-plugins": "^0.0.1-rc.3",
     "@deepseek-ai/dsh-client-ui-slots": "^0.0.1-rc.5",
     "@deepseek-ai/dsh-llm": "^0.0.1-rc.1",

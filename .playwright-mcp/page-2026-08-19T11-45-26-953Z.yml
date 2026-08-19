@@ -1,0 +1,45 @@
+- generic [ref=e4]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - button "新建会话" [ref=e9] [cursor=pointer]
+      - button "收起侧边栏" [ref=e31] [cursor=pointer]
+    - button "新建会话" [ref=e34] [cursor=pointer]:
+      - generic [ref=e37]: 新会话
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]: 工作区
+        - generic [ref=e44]:
+          - button "搜索会话" [ref=e45] [cursor=pointer]
+          - textbox "搜索会话…"
+        - generic [ref=e49]:
+          - button "视图选项" [ref=e51] [cursor=pointer]
+          - button "添加工作区" [ref=e54] [cursor=pointer]
+      - tree "会话" [ref=e60]:
+        - generic [ref=e61]:
+          - treeitem "workspace" [expanded] [ref=e63] [cursor=pointer]
+          - treeitem "新会话" [selected] [ref=e71] [cursor=pointer]
+          - treeitem "Copilot安装位置查询 2小时" [ref=e75] [cursor=pointer]:
+            - generic [ref=e77]: Copilot安装位置查询
+            - generic [ref=e78]: 2小时
+    - button "设置" [ref=e82] [cursor=pointer]
+  - generic [ref=e96]:
+    - generic [ref=e99]:
+      - generic [ref=e103]: 探索未至之境
+      - generic [ref=e104]: 预览版
+    - button "选择工作区" [ref=e106] [cursor=pointer]:
+      - generic [ref=e110]: workspace
+    - generic [ref=e115]:
+      - textbox "描述你想要构建的内容" [active] [ref=e118]
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - button "命令" [ref=e121] [cursor=pointer]
+          - button "访问模式，当前：Workspace Write" [ref=e126] [cursor=pointer]:
+            - generic [ref=e134]: Workspace Write
+        - generic [ref=e138]:
+          - button "选择模型" [ref=e141] [cursor=pointer]
+          - button "发送消息" [disabled] [ref=e145]
+  - generic [ref=e149]:
+    - generic [ref=e150]:
+      - generic: 详情
+      - button "关闭详情" [ref=e151] [cursor=pointer]
+    - generic [ref=e154]: 点击消息流中的工具行查看详情
